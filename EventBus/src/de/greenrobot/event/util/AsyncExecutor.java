@@ -15,13 +15,13 @@
  */
 package de.greenrobot.event.util;
 
-import java.lang.reflect.Constructor;
-import java.util.concurrent.Executor;
-import java.util.concurrent.Executors;
-
 import android.app.Activity;
 import android.util.Log;
 import de.greenrobot.event.EventBus;
+
+import java.lang.reflect.Constructor;
+import java.util.concurrent.Executor;
+import java.util.concurrent.Executors;
 
 /**
  * Executes an {@link RunnableEx} using a thread pool. Thrown exceptions are propagated by posting failure events of any
